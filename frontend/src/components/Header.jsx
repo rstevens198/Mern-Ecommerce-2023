@@ -1,6 +1,5 @@
 import { useNavigate } from 'react-router-dom'
 import {Navbar, Nav, Container, Badge, NavDropdown} from 'react-bootstrap'
-import NavbarToggle from 'react-bootstrap/esm/NavbarToggle'
 import {FaShoppingCart, FaUser} from 'react-icons/fa'
 import {LinkContainer} from'react-router-bootstrap'
 import { useSelector, useDispatch } from 'react-redux'
