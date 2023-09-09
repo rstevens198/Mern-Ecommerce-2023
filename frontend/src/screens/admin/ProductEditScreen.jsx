@@ -57,6 +57,7 @@ const ProductEditScreen = () => {
         else{
             toast.success("Product updated")
             navigate("/admin/productlist")
+            refetch()
         }
     }
 
