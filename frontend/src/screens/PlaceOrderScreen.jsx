@@ -26,8 +26,6 @@ const PlaceOrderScreen = () => {
 
     const placeOrderHandler = async () => {
         try {
-            console.log("33333333333333333333333333333333")
-            console.log(cart.itemsPrice)
           const res = await createOrder({
             orderItems: cart.cartItems,
             shippingAddress: cart.shippingAddress,
